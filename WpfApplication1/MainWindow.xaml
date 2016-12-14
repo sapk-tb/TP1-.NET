@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="720">
+    <Grid>
+        <Button x:Name="refresh" Content="Refresh" HorizontalAlignment="Left" Margin="627,393,0,0" VerticalAlignment="Top" Width="75" Click="refreshClick"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="364" VerticalAlignment="Top" Width="712" Margin="0,24,0,0"/>
+        <Button x:Name="startBallonBtn" Content="Start Ballon" HorizontalAlignment="Left" Margin="10,393,0,0" VerticalAlignment="Top" Width="75" Click="startBallonBtnClick"/>
+        <Button x:Name="startPremierBtn" Content="Start Permier" HorizontalAlignment="Left" Margin="90,393,0,0" VerticalAlignment="Top" Width="75" Click="startPremierBtnClick"/>
+        <TextBox x:Name="pwdTextBox" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="712" IsEnabled="False"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,1 @@
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config

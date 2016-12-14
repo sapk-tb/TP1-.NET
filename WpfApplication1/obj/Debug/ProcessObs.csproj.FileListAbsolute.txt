@@ -1,0 +1,14 @@
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\ProcessObs.csprojResolveAssemblyReference.cache
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.lref
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\ProcessObs.csproj.GenerateResource.Cache
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+\\campus.enst-bretagne.fr\homes\agirar01\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
