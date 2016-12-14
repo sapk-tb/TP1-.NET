@@ -35,7 +35,14 @@ namespace WpfApplication1
             pwdTextBox.Text = System.IO.Directory.GetCurrentDirectory();
             countBallonTextBox.Text = ballonCount.ToString();
             countPremierTextBox.Text = premierCount.ToString();
+            this.Closed += MainWindow_Closed;
         }
+
+        private void MainWindow_Closed(object sender, EventArgs e)
+        {
+            closeAll(null, null);
+        }
+
         private void addToList(string str)
         {
             var l = new ListBoxItem();
@@ -169,6 +176,10 @@ namespace WpfApplication1
                 p.Kill();
             });
 
+        }
+        private void quitClick(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

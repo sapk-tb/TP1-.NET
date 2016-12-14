@@ -9,6 +9,9 @@
     <Grid>
         <DockPanel>
             <Menu DockPanel.Dock="Top">
+                <MenuItem Header="App">
+                    <MenuItem Header="Quit" Click="quitClick" />
+                </MenuItem>
                 <MenuItem Header="Demarrer">
                     <MenuItem Header="Ballon" Click="startBallonBtnClick" />
                     <MenuItem Header="Premier" Click="startPremierBtnClick" />
