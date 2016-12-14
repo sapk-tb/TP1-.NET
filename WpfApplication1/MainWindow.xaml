@@ -7,11 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="720">
     <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Demarrer">
+                    <MenuItem Header="Ballon" Click="startBallonBtnClick" />
+                    <MenuItem Header="Premier" Click="startPremierBtnClick" />
+                </MenuItem>
+                <MenuItem Header="Suppression">
+                    <MenuItem Header="Supprimer dernier" Click="closeLast"  />
+                    <MenuItem Header="Supprimer dernier ballon" Click="closeLastBallon" />
+                    <MenuItem Header="Supprimer dernier premier" Click="closeLastPremier" />
+                    <MenuItem Header="Supprimer tout" Click="closeAll" />
+                </MenuItem>
+            </Menu>
+        </DockPanel>
         <Button x:Name="refresh" Content="Refresh" HorizontalAlignment="Left" Margin="627,393,0,0" VerticalAlignment="Top" Width="75" Click="refreshClick"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="364" VerticalAlignment="Top" Width="712" Margin="0,24,0,0"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="305" VerticalAlignment="Top" Width="712" Margin="0,83,0,0"/>
         <Button x:Name="startBallonBtn" Content="Start Ballon" HorizontalAlignment="Left" Margin="10,393,0,0" VerticalAlignment="Top" Width="75" Click="startBallonBtnClick"/>
         <Button x:Name="startPremierBtn" Content="Start Permier" HorizontalAlignment="Left" Margin="90,393,0,0" VerticalAlignment="Top" Width="75" Click="startPremierBtnClick"/>
-        <TextBox x:Name="pwdTextBox" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="712" IsEnabled="False"/>
-
+        <TextBox x:Name="pwdTextBox" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="712" IsEnabled="False" Margin="0,25,0,0"/>
+        <TextBox x:Name="countBallonTextBox" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" IsEnabled="False" Margin="10,54,0,0" ToolTip="Ballon Count"/>
+        <TextBox x:Name="countPremierTextBox" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top"  Width="346" IsEnabled="False" Margin="356,54,0,0" ToolTip="Premier Count"/>
     </Grid>
 </Window>
